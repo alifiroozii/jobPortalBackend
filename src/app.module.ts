@@ -8,7 +8,7 @@ import { UsersModule } from './user/user.module'; // Import UserModule
 @Module({
   imports: [
     ConfigModule.forRoot({ isGlobal: true }), // Register ConfigModule globally
-    // AuthModule,
+    AuthModule,
     UsersModule,
   ],
   controllers: [AppController],
