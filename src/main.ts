@@ -9,7 +9,7 @@ async function bootstrap() {
 
   // فعال‌سازی CORS
   app.enableCors({
-    origin: 'http://example.com', // مبدأ مجاز (می‌توانید '*' برای همه مبدأها استفاده کنید)
+    origin: 'http://localhost:3000', // مبدأ مجاز (می‌توانید '*' برای همه مبدأها استفاده کنید)
     methods: 'GET,POST,PUT,DELETE', // متدهای مجاز
     credentials: true, // اجازه دادن به ارسال کوکی‌ها
   });

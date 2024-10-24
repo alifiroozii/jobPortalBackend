@@ -8,7 +8,7 @@ export class UserController {
   constructor(private readonly userService: UserService) {}
 
   @Get('alluser')
-  @UseGuards(JwtAuthGuard) // استفاده از گارد
+  //@UseGuards(JwtAuthGuard) // استفاده از گارد
 
   async getAllUsers() {
     return this.userService.getAllUsers();
